@@ -9,7 +9,9 @@ istall AES pythonlibtrary through
     
 The AES-GCM encryption takes as input a message + encryption key and produces as output a set of values: { ciphertext + nonce + authTag }.
     The ciphertext is the encrypted message.
+    
     The nonce is the randomly generated initial vector (IV) for the GCM construction.
+    
     The authTag is the message authentication code (MAC) calculated during the encryption.
 
 The encryption key size generated in the above code is 256 bits (32 bytes) and it configures the AES-GCM cipher as AES-256-GCM.
